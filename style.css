@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", serif;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #E4E0E1;
+  ;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  width: 70%;
+  height: 70px;
+  position: absolute;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+}
+
+.logo a {
+  font-size: 30px;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #e4e0e1;
+}
+
+.logo a span {
+  color: #d6c0b3;
+}
+
+nav ul li a {
+  font-size: 18px;
+  color: #e4e0e1;
+  font-weight: bolder;
+  margin: 5px 20px;
+  padding: 10px 10px;
+  margin-right: 100px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid rgb(255, 0, 34);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("images/coffee.jpg");
+  background-size: cover;
+}
+
+.content h2 {
+  font-family: "Varela Round", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+  color: #e4e0e1;
+  margin-top: 100px;
+}
+.content p {
+  font-family: "Varela Round", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+  color: #cfadb6;
+}
+
+.menu-title,.shop-title{
+  display: flex;
+  justify-content: space-between;
+  background-color: #695140;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  
+}
+
+.shop-title{
+  margin-top: 10px;
+}
+
+.menu-title h3, .menu-title h4, .shop-title h3, .shop-title h4{
+  font-size: 18px;
+  color: #e4e0e1;
+  margin: 5px 20px;
+  padding: 10px 10px;
+
+
+}
+
+.menuitems{
+  display: flex;
+  justify-content: space-around;
+  background-color: #E4E0E1;
+  margin: 50px;
+
+
+
+}
+.menuitems h4{
+  color: #493628;
+  font-size: 26px;
+  text-align: left;
+}
+.menuitems p{
+  font-size: 20px;
+  color: #AB886D;
+  font-weight: 1500px;
+}
+
+.menuitem1,.menuitem2,.menuitem3{
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  
+  
+}
+
+
+.menu img{
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 10% 30% 50% 70%;
+}
+
+.shopitems{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+.shopbackground{
+  background-color: #D6C0B3;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 10% / 50%;
+  background-image: url("images/coffbg.jpg");
+  background-size: cover;
+
+
+}
+
+.shopbackground img{
+  width: 250px;
+  height: 250px;
+
+
+}
+
+.shopbackground img:hover{
+  transform: scale(1.2);
+  transition: transform .4s ease-in-out;
+}
+.shoptem1,.shoptem2,.shoptem3{
+  flex-basis: 400px;
+}
+
+.img-head{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.shopitems h5{
+  font-size: 26px;
+  color: #493628;
+}
+.shopitems p{
+  font-size: 20px;
+}
+.img-head p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.review i{
+  color: #AB886D;
+}
+
+
+
+.trendi{
+font-size: 20px;
+position: relative;
+left: 6px;
+
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-image{
+  width: 800px;
+}
+
+.contact-image img{
+  width: 100%;
+  transform: scaleX(-1);
+
+}
+
+.contactsection{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cont-header{
+  width: 400px;
+
+}
+
+.cont-header h3{
+  color: #493628;
+  font-size: 30px;
+  text-align: center;
+}
+
+.cont-header h6{
+  font-size: 26px;
+  color: #695140;
+  text-align: center;
+  
+}
+
+.contactforms form{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+
+}
+
+form input{
+  width: 600px;
+  height: 50px;
+}
+
+
+form button{
+  align-self: flex-start;
+  padding: 10px 20px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  transition: all 1 ease-in;
+  border: 5px;
+  background-color: #AB886D;
+  color: white;
+  border-radius: 40px;
+}
+
+form button:hover{
+  background-color: #D6C0B3;
+
+}
+
+form input{
+  border-radius: 40px;
+  padding-left: 20px;
+  border: none;
+}
+
+form input:hover{
+  box-shadow: 0 0 10px #493628;
+
+}
+
+.socialmedia{
+  display: flex;
+  gap: 20px;
+}
+.socialmedia i{
+  font-size: 25px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.aducof{
+  color: #493628;
+}
+
+hr{
+  margin-bottom: 20px;
+}
+
+.bgrespo{
+  display: none;
+}
+@media (max-width: 992px) {
+ 
+  .menuitems{
+    flex-direction: column;
+  }
+  .shopitems{
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .shoptem1,.shoptem2,.shoptem3{
+    width: 100%;
+  }
+
+  .shopbackground{
+    width: 100%;
+  }
+
+  .menu img{
+    width: 100%;
+  }
+
+  .contactsection{
+    width: 100%;
+  }
+  .cont-header{
+    width: 100%;
+  }
+
+  .name-inp{
+    width: 300px;
+  }
+  .mess-inp{
+    width: 300px;
+  }
+
+  .bgcont{
+   display: none;
+  }
+
+  .bgrespo{
+    display: block;
+    height: 500px;
+
+  }
+ 
+
+  .logo{
+    text-align: left;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  nav li{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+
+ 
+  .logo a{
+    font-weight: 900;
+
+  }
+
+
+  nav ul li a{
+    font-weight: 900;
+    font-size: 26px;
+  }
+
+  header{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 140px;
+  }
+
+ 
+
+  
+}
