@@ -1,4 +1,4 @@
-Static Coffee shop website with responsiveness
+Static Coffee shop website with responsiveness  Live at https://zlatan003.github.io/Coffee-website/
 
 ![alt text](images/image.png)
 
